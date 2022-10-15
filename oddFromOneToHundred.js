@@ -7,6 +7,10 @@ function odds() {
       arr.push(i);
     }
   }
+  // if you want to add nums of array
+  // arr = arr.reduce(function(a, b) {
+  //   return a + b;
+  // }, 0);
   console.log(arr);
 }
 
