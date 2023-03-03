@@ -21,5 +21,5 @@
 
 //NOT COMPLETED -> website wasn't working so I dont know if the code is correct
 function sum (numbers) {
-
+    return numbers.reduce((a, b) => a + b, 0);
 };
